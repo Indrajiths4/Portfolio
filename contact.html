@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            padding: 0 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-section {
+            padding: 100px 0;
+        }
+        .contact-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 40px;
+        }
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+        .map-container {
+            height: 300px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #2E86DE;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #1c6dc9;
+        }
+        h2 {
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Indrajith's Portfolio</h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Email: indrajithmundackal@gmail.com</p>
+                    <p>Phone: +91 8281900504</p>
+                    <p>Location: Kottayam, Kerala, India</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.7304714744384!2d76.56001707589661!3d9.690647390474318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNDEnMjYuMyJOIDc2wrAzMyc0NS40IkU!5e0!3m2!1sen!2sin!4v1631234567890!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

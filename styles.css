@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #000428, #004e92);
+    padding: 40px;
+}
+
+.container1 {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.two-cols {
+    display: flex;
+    gap: 20px;
+}
+
+.two-cols > div {
+    flex: 1;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#button {
+    background-color: #2E86DE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: #1c6dc9;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            padding: 0 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 60px;
+        }
+        .hero-content {
+            max-width: 600px;
+        }
+        .hero-content img {
+            width: 180px;
+            height: 205px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .hero-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: #2E86DE;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #1c6dc9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Indrajith's Portfolio</h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/passportpic.png" alt="Your Name">
+            <h1>Indrajith S Nair</h1>
+            <p>Web Developer | Programmer | Web Designer</p>
+            <a href="about.html" class="btn">Learn More About Me</a>
+        </div>
+    </section>
+</body>
+</html>

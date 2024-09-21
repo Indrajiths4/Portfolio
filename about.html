@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            padding: 0 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .about-section {
+            padding: 100px 0;
+        }
+        .about-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 40px;
+        }
+        .skills {
+            flex: 1;
+            min-width: 300px;
+        }
+        .skill-bar {
+            margin-bottom: 20px;
+        }
+        .skill-bar h3 {
+            margin-bottom: 10px;
+        }
+        .progress {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            height: 10px;
+            width: 100%;
+        }
+        .progress-bar {
+            background: #2E86DE;
+            border-radius: 20px;
+            height: 10px;
+        }
+        h2 {
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Indrajith's Portfolio</h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Indrajith S Nair, an ambitious Computer Science Engineering student and aspiring web developer based in Kottayam, Kerala. With a strong academic record (CGPA: 9.21) and diverse technical skills, I'm passionate about creating innovative solutions through technology.</p>
+                    <p>My journey in tech began during my ongoing studies in Computer Science and Engineering, where I've developed a strong interest in web development, IoT, and solving real-world problems through technology. I'm proficient in multiple programming languages including Python, Java, C/C++, and JavaScript, with experience in web and mobile development frameworks like React/Next.js and React Native.</p>
+                    <h3>Education</h3>
+                    <p>Bachelor of Technology in Computer Science Engineering - St Joseph's College of Engineering and Technology, Palai, Kottayam, Kerala (2021-2025)</p>
+                    <ul>
+                        <li>Current CGPA: 9.21</li>
+                        <li>Awarded scholarship for 4 years due to outstanding academic performance</li>
+                    </ul>
+                    <h3>Work Experience</h3>
+                    <p>Trainee at Soften Technologies, Kochi - May 2023</p>
+                    <ul>
+                        <li>Completed a training program with a focus on Python</li>
+                    </ul>
+                    <h3>Notable Projects</h3>
+                    <ul>
+                        <li>Task Allocator (Jan 2024 - Apr 2024): Developed a web-based system for efficient assignment distribution among employees based on their skills and knowledge.</li>
+                        <li>Curently (Jan 2024 - Apr 2024): Developing an IoT-based household energy monitoring system for real-time tracking and analysis of energy consumption.</li>
+                    </ul>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Secured 2nd place in the Coding Sprint competition organized by MuLearn SBC and IEEE Student Branch of Sree Buddha College of Engineering, Pattoor</li>
+                        <li>Completed "Joy of Computing in Python" certification from NPTEL (National Programme on Technology Enhanced Learning) in 2024</li>
+                    </ul>
+                    <p>I'm eager to apply my theoretical knowledge and hands-on project experience to contribute to innovative solutions in a professional setting. Feel free to explore my portfolio at indrajithspersonalportfolio.vercel.app to see more of my work!</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-bar">
+                        <h3>HTML/CSS</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h3>JavaScript</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h3>Python</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h3>React</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 40%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <h3>Node.js</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar"></div>
+                        <h3>Nextjs</h3>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
